@@ -12,9 +12,13 @@ package com.ginsberg.advent2021
 class Day01(private val input: List<Int>) {
 
     fun solvePart1(): Int =
-        input.zipWithNext().count { it.first < it.second }
+        input
+            .zipWithNext()
+            .count { it.first < it.second }
 
     fun solvePart2(): Int =
-        input.windowed(3, 1).map { it.sum() }.zipWithNext().count { it.first < it.second }
-
+        input
+            .windowed(3, 1) { it.sum() }
+            .zipWithNext()
+            .count { it.first < it.second }
 }
