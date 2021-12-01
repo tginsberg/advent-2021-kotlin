@@ -12,5 +12,9 @@ Past years, also in Kotlin:
  * 2019 - [GitHub](https://github.com/tginsberg/advent-2019-kotlin/) and [Blog Posts](https://todd.ginsberg.com/post/advent-of-code/2019/)
  * 2020 - [GitHub](https://github.com/tginsberg/advent-2020-kotlin/) and [Blog Posts](https://todd.ginsberg.com/post/advent-of-code/2020/)
 
+#### Daily Solution Index for 2021
+| Day | Title       | Links                                                                                                                                                                                                                                            |
+|-----|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Sonar Sweep | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day1/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day01.kt) [\[AoC\]](http://adventofcode.com/2021/day/1) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
