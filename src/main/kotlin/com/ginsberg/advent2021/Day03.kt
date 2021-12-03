@@ -9,18 +9,16 @@
  */
 package com.ginsberg.advent2021
 
-import kotlin.math.pow
-
 class Day03(private val input: List<String>) {
 
     private val inputWidth = input.first().length
 
     fun solvePart1(): Int {
-        val gamma = (0 until inputWidth).sumOf { column ->
-            val columnValue = (inputWidth - column - 1).binaryColumnValue()
-            if (input.count { it[column] == '1' } > input.size / 2) columnValue else 0
-        }
-        return gamma * (inputWidth.maxBinaryValue() - gamma)
+        val gamma = input.first().indices.map { column ->
+            if (input.count { it[column] == '1' } > input.size / 2) '1' else '0'
+        }.joinToString("")
+        val epsilon = gamma.map { if(it == '1') '0' else '1' }.joinToString("")
+        return gamma.toInt(2) * epsilon.toInt(2)
     }
 
     fun solvePart2(): Int =
@@ -33,12 +31,6 @@ class Day03(private val input: List<String>) {
                 if (keepMostCommon) split.longest() else split.shortest()
             }
         }.first()
-
-    private fun Int.maxBinaryValue(): Int =
-        binaryColumnValue() - 1
-
-    private fun Int.binaryColumnValue(): Int =
-        2.0.pow(this.toDouble()).toInt()
 
     private fun <T> Pair<List<T>, List<T>>.longest(): List<T> =
         if (first.size >= second.size) first else second
