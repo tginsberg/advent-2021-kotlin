@@ -11,13 +11,11 @@ package com.ginsberg.advent2021
 
 class Day03(private val input: List<String>) {
 
-    private val inputWidth = input.first().length
-
     fun solvePart1(): Int {
         val gamma = input.first().indices.map { column ->
             if (input.count { it[column] == '1' } > input.size / 2) '1' else '0'
         }.joinToString("")
-        val epsilon = gamma.map { if(it == '1') '0' else '1' }.joinToString("")
+        val epsilon = gamma.map { if (it == '1') '0' else '1' }.joinToString("")
         return gamma.toInt(2) * epsilon.toInt(2)
     }
 
@@ -25,7 +23,7 @@ class Day03(private val input: List<String>) {
         input.bitwiseFilter(true).toInt(2) * input.bitwiseFilter(false).toInt(2)
 
     private fun List<String>.bitwiseFilter(keepMostCommon: Boolean): String =
-        (0 until inputWidth).fold(this) { inputs, column ->
+        first().indices.fold(this) { inputs, column ->
             if (inputs.size == 1) inputs else {
                 val split = inputs.partition { it[column] == '1' }
                 if (keepMostCommon) split.longest() else split.shortest()
