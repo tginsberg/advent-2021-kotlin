@@ -18,5 +18,6 @@ Past years, also in Kotlin:
 | 1   | Sonar Sweep       | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day1/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day01.kt) [\[AoC\]](http://adventofcode.com/2021/day/1) |
 | 2   | Dive!             | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day2/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day02.kt) [\[AoC\]](http://adventofcode.com/2021/day/2) |
 | 3   | Binary Diagnostic | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day3/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day03.kt) [\[AoC\]](http://adventofcode.com/2021/day/3) |
+| 4   | Giant Squid       | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day4/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day04.kt) [\[AoC\]](http://adventofcode.com/2021/day/4) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
