@@ -20,5 +20,6 @@ Past years, also in Kotlin:
 | 3   | Binary Diagnostic    | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day3/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day03.kt) [\[AoC\]](http://adventofcode.com/2021/day/3) |
 | 4   | Giant Squid          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day4/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day04.kt) [\[AoC\]](http://adventofcode.com/2021/day/4) |
 | 5   | Hydrothermal Venture | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day5/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day05.kt) [\[AoC\]](http://adventofcode.com/2021/day/5) |
+| 6   | Lanternfish          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day6/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day06.kt) [\[AoC\]](http://adventofcode.com/2021/day/6) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
