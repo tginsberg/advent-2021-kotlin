@@ -22,8 +22,7 @@ class Day05(input: List<String>) {
     private fun solve(lineFilter: (Pair<Point2d, Point2d>) -> Boolean) =
         instructions
             .filter { lineFilter(it) }
-            .map { it.first lineTo it.second }
-            .flatten()
+            .flatMap { it.first lineTo it.second }
             .groupingBy { it }
             .eachCount()
             .count { it.value > 1 }
