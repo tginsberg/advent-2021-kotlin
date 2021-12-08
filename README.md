@@ -22,5 +22,6 @@ Past years, also in Kotlin:
 | 5   | Hydrothermal Venture    | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day5/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day05.kt) [\[AoC\]](http://adventofcode.com/2021/day/5) |
 | 6   | Lanternfish             | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day6/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day06.kt) [\[AoC\]](http://adventofcode.com/2021/day/6) |
 | 7   | The Treachery of Whales | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day7/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day07.kt) [\[AoC\]](http://adventofcode.com/2021/day/7) |
+| 8   | Seven Segment Search    | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day8/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day08.kt) [\[AoC\]](http://adventofcode.com/2021/day/8) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
