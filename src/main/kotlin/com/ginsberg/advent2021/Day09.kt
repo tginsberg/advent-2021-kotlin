@@ -23,7 +23,7 @@ class Day09(input: List<String>) {
             .map { getBasinSize(it) }
             .sortedDescending()
             .take(3)
-            .fold(1) { carry, n -> n * carry }
+            .reduce { a, b -> a * b }
 
     private fun getBasinSize(point: Point2d): Int {
         val visited = mutableSetOf(point)
