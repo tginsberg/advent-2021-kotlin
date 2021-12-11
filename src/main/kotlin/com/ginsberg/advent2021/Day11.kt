@@ -20,7 +20,7 @@ class Day11(input: List<String>) {
         startingCave.steps().take(100).sum()
 
     fun solvePart2(): Int =
-        startingCave.steps().takeWhile { it != startingCave.size }.count() + 1
+        startingCave.steps().indexOfFirst { it == startingCave.size } + 1
 
     private fun OctopusCave.steps(): Sequence<Int> = sequence {
         val cave = this@steps.toMutableMap()
