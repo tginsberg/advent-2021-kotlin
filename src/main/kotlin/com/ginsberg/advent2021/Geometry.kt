@@ -20,10 +20,18 @@ data class Point2d(val x: Int, val y: Int) {
 
     fun neighbors(): List<Point2d> =
         listOf(
-            Point2d(x , y + 1),
-            Point2d(x , y - 1),
-            Point2d(x + 1 , y),
-            Point2d(x - 1 , y)
+            Point2d(x, y + 1),
+            Point2d(x, y - 1),
+            Point2d(x + 1, y),
+            Point2d(x - 1, y)
+        )
+
+    fun allNeighbors(): List<Point2d> =
+        neighbors() + listOf(
+            Point2d(x - 1, y - 1),
+            Point2d(x - 1, y + 1),
+            Point2d(x + 1, y - 1),
+            Point2d(x + 1, y + 1)
         )
 }
 

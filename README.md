@@ -25,5 +25,6 @@ Past years, also in Kotlin:
 | 8   | Seven Segment Search    |     | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day8/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day08.kt) [\[AoC\]](http://adventofcode.com/2021/day/8)   |
 | 9   | Smoke Basin             |     | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day9/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day09.kt) [\[AoC\]](http://adventofcode.com/2021/day/9)   |
 | 10  | Syntax Scoring          |     | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day10/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day10.kt) [\[AoC\]](http://adventofcode.com/2021/day/10) |
+| 11  | Dumbo Octopus           |     | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day11/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day11.kt) [\[AoC\]](http://adventofcode.com/2021/day/11) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
