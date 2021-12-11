@@ -31,11 +31,11 @@ class Day11(input: List<String>) {
                 val flashersThisRound = cave.filterValues { it > 9 }.keys
                 flashersThisRound.forEach { cave[it] = 0 }
 
-                val neighborsOfFlashers = flashersThisRound
+                flashersThisRound
                     .flatMap { it.allNeighbors() }
                     .filter { it in cave && cave[it] != 0 }
+                    .forEach { cave[it] = cave.getValue(it) + 1 }
 
-                neighborsOfFlashers.forEach { cave[it] = cave.getValue(it) + 1 }
             } while (flashersThisRound.isNotEmpty())
 
 
