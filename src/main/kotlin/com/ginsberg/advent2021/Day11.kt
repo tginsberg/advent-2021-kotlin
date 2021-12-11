@@ -26,24 +26,20 @@ class Day11(input: List<String>) {
         val cave = this@steps.toMutableMap()
 
         while (true) {
-
             cave.forEach { (point, energy) -> cave[point] = energy + 1 }
-            val flashersThisStep = mutableSetOf<Point2d>()
-
             do {
-                val flashersThisRound = cave.filter { it.value > 9 && it.key !in flashersThisStep }.keys
-                flashersThisStep.addAll(flashersThisRound)
+                val flashersThisRound = cave.filterValues { it > 9 }.keys
+                flashersThisRound.forEach { cave[it] = 0 }
 
                 val neighborsOfFlashers = flashersThisRound
                     .flatMap { it.allNeighbors() }
-                    .filter { it in cave && it !in flashersThisStep }
+                    .filter { it in cave && cave[it] != 0 }
 
                 neighborsOfFlashers.forEach { cave[it] = cave.getValue(it) + 1 }
             } while (flashersThisRound.isNotEmpty())
 
-            flashersThisStep.forEach { cave[it] = 0 }
 
-            yield(flashersThisStep.size)
+            yield(cave.count { it.value == 0 })
         }
     }
 
