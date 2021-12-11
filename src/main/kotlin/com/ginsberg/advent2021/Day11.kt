@@ -35,9 +35,7 @@ class Day11(input: List<String>) {
                     .flatMap { it.allNeighbors() }
                     .filter { it in cave && cave[it] != 0 }
                     .forEach { cave[it] = cave.getValue(it) + 1 }
-
             } while (flashersThisRound.isNotEmpty())
-
 
             yield(cave.count { it.value == 0 })
         }
