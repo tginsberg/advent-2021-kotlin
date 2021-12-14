@@ -28,5 +28,6 @@ Past years, also in Kotlin:
 | 11  | Dumbo Octopus           | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day11/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day11.kt) [\[AoC\]](http://adventofcode.com/2021/day/11) |
 | 12  | Passage Pathing         | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day12/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day12.kt) [\[AoC\]](http://adventofcode.com/2021/day/12) |
 | 13  | Transparent Origami     | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day13/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day13.kt) [\[AoC\]](http://adventofcode.com/2021/day/13) |
+| 14  | Extended Polymerization | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day14/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day14.kt) [\[AoC\]](http://adventofcode.com/2021/day/14) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
