@@ -31,5 +31,6 @@ Past years, also in Kotlin:
 | 14  | Extended Polymerization | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day14/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day14.kt) [\[AoC\]](http://adventofcode.com/2021/day/14) |
 | 15  | Chiton                  | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day15/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day15.kt) [\[AoC\]](http://adventofcode.com/2021/day/15) |
 | 16  | Packet Decoder          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day16/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day16.kt) [\[AoC\]](http://adventofcode.com/2021/day/16) |
+| 17  | Trick Shot              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day17/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day17.kt) [\[AoC\]](http://adventofcode.com/2021/day/17) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
