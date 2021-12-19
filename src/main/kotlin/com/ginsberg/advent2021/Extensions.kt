@@ -28,3 +28,9 @@ fun <T> Iterator<Char>.executeUntilEmpty(function: (Iterator<Char>) -> T): List<
     }
     return output
 }
+
+fun <T> Collection<T>.pairs(): List<Pair<T,T>> =
+    this.flatMapIndexed { index, a ->
+        this.drop(index).map { b -> a to b }
+    }
+
