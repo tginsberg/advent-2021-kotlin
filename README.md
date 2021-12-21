@@ -35,5 +35,6 @@ Past years, also in Kotlin:
 | 18  | Snailfish               | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day18/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day18.kt) [\[AoC\]](http://adventofcode.com/2021/day/18) |
 | 19  | Beacon Scanner          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day19/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day19.kt) [\[AoC\]](http://adventofcode.com/2021/day/19) |
 | 20  | Trench Map              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day20/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day20.kt) [\[AoC\]](http://adventofcode.com/2021/day/20) |
+| 21  | INSERT                  | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day21/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day21.kt) [\[AoC\]](http://adventofcode.com/2021/day/21) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
