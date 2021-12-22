@@ -36,5 +36,6 @@ Past years, also in Kotlin:
 | 19  | Beacon Scanner          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day19/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day19.kt) [\[AoC\]](http://adventofcode.com/2021/day/19) |
 | 20  | Trench Map              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day20/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day20.kt) [\[AoC\]](http://adventofcode.com/2021/day/20) |
 | 21  | Dirac Dice              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day21/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day21.kt) [\[AoC\]](http://adventofcode.com/2021/day/21) |
+| 22  | Reactor Reboot          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2021/day22/) [\[Code\]](https://github.com/tginsberg/advent-2021-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2021/Day22.kt) [\[AoC\]](http://adventofcode.com/2021/day/22) |
 
 Copyright &copy; 2021 by Todd Ginsberg.
