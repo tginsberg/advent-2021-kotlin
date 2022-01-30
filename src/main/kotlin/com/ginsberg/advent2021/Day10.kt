@@ -48,7 +48,7 @@ class Day10(private val input: List<String>) {
         fun score(): Long =
             pending
                 .map { openToClose.getValue(it) }
-                .fold(0) { carry, symbol ->
+                .fold(0L) { carry, symbol ->
                     (carry * 5) + scoresPart2.getValue(symbol)
                 }
     }
